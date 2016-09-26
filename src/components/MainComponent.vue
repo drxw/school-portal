@@ -3,11 +3,11 @@
 		<h1>{{ msg }}</h1>
 
 		<div class="utilities">
-			<div class="utility"><a v-link="'/class-compare'">U</a></div>
-			<div class="utility">M</div>
-			<div class="utility">G</div>
-
+			<div class="utility"><a v-link="'/class-compare'">C</a></div>
 			<div class="utility">R</div>
+			<div class="utility"><a v-link="'/faculty-notice'">F</a></div>
+
+			<div class="utility">M</div>
 			<div class="utility">P</div>
 			<div class="utility">H</div>
 
@@ -24,7 +24,7 @@ export default {
 			// with hot-reload because the reloaded component
 			// preserves its current state and we are modifying
 			// its initial state.
-			msg: 'Main'
+			msg: 'Product Selection'
 		}
 	}
 }
@@ -32,8 +32,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+	.sm-red {
+		color: #C13440;
+	}
+	.sm-regBlue {
+		color: #105BA4;
+	}
+	.sm-darkBlue {
+		color: #1A3665;
+	}
+	.sm-yellow {
+		color: #F7BE56;
+	}
 	h1 {
-		color: #42b983;
+		color: #105BA4;
 	}
 	.main {
 		height: 100%;
@@ -51,6 +63,7 @@ export default {
 		display: inline-block;
 		margin-top: 5px;
 		padding-bottom: 2px;
+		font-family: "Times New Roman";
 		/*border: 1px solid #ff0000;*/
 	}
 	.utilities .utility a,
@@ -63,6 +76,6 @@ export default {
 	.utilities .utility:hover a,
 	.utilities .utility a:hover {
 		background-color: #fbfbfb;
-		color: #7bcea9;
+		color: #105BA4;
 	}
 </style>

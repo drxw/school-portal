@@ -42,7 +42,10 @@ export default {
 	}
 	#wrapper {
 		height: 100%;
+		max-width: 2000px;
+		margin: 0 auto;
 		padding-left: 20px;
+		font-family: Helvetica;
 	}
 	.navbar-container {
 		max-height: 200px;

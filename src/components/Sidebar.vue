@@ -5,6 +5,8 @@
 		<ul>
 			<li><a v-link="'/'">Home</a></li>
 			<li><a v-link="'/class-compare'">Class Compare</a></li>
+			<li><a v-link="'/class-compare'">Recent Submissions</a></li>
+			<li><a v-link="'/faculty-notice'">Faculty Notice</a></li>
 		</ul>
 	</div>
 </template>
@@ -17,7 +19,7 @@ export default {
 			// with hot-reload because the reloaded component
 			// preserves its current state and we are modifying
 			// its initial state.
-			msg: 'Sidebar'
+			msg: 'School Portal'
 		}
 	}
 }
@@ -26,7 +28,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 	h1 {
-		color: #42b983;
+		color: #105BA4;
 	}
 	.sidebar {
 		border-right: 1px solid #e1e1e1;
@@ -48,7 +50,7 @@ export default {
 		text-decoration: none;
 	}
 	.sidebar ul li:hover {
-		border-right: 2px solid #7bcea9;
+		border-right: 2px solid #C13440;
 		border-right-width: 10px;
 	}
 </style>

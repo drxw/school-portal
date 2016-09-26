@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App'
 import ClassCompare from './components/ClassCompare'
+import FacultyNotice from './components/FacultyNotice'
 
 Vue.use(VueRouter)
 
@@ -13,6 +14,9 @@ router.map({
 	},
 	'/class-compare' : {
 		component: ClassCompare
+	},
+	'/faculty-notice' : {
+		component: FacultyNotice
 	}
 })
 
